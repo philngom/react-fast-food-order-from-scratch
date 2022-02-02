@@ -7,7 +7,7 @@ export default function OrderNameInput({ setOrderName, orderName }) {
   }
 
   return (
-    <div>
+    <div className='name'>
       <label>
         Name on order:
         <input onChange={ handleOnChange }/>

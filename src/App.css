@@ -1,10 +1,8 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  display: grid;
+  grid-template-rows: 12% 1fr 1fr;
+  height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
